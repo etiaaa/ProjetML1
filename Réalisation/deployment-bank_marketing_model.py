@@ -92,3 +92,5 @@ if st.button("Prédire"):  # Bouton pour lancer la prédiction
             st.warning(f"Le client est susceptible de refuser l'offre à {prediction_proba[0] * 100:.2f}%")  
     except Exception as e:
         st.error(f"Erreur lors de la prédiction : {e}")  
+
+        
